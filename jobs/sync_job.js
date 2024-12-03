@@ -52,7 +52,7 @@ async function sync() {
 }
 
 const syncJob = new CronJob(
-	'* * * * *',
+	'0 0 * * *',
 	sync, 
 	null,
 	true, 
