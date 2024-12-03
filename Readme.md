@@ -7,17 +7,14 @@ Local Database Connection Information:
 - Postgres Password: asset_management_abcdef
 - Postgres Database Name: asset_management
 # HOW TO START THIS PROJECT
-
-- Step 1: 
--- Go to project folder and Run `pnpm install`
-- Step 2:
+- Step 1:
 -- Run `docker compose up postgres_asset_managment_server -d`
-- Step 3: 
+- Step 2: 
 -- Sorry so this inconvenient, sometime /docker-entrypoint-initdb.d/init_sql.sql not working as expected.. Please go into postgresql admin and access database using above connection information. Afterward to create a database named `asset_management`. 
-- Step 4:
+- Step 3:
 -- Run `./migrate_up.sh`
-- Step 5:
+- Step 4:
 -- Run `docker compose up asset_management`
-- Step 6:
+- Step 5:
 -- Watch code work. You can edit cron job pattern to every minute to see data synced immediately. Cron job pattern start at 0h everyday, currently
 
