@@ -12,7 +12,7 @@ Local Database Connection Information:
 - Step 2:
 -- Run `docker compose up postgres_asset_managment_server -d`
 - Step 3: 
--- Sorry so this inconvenient, sometime /docker-entrypoint-initdb.d/init_sql.sql not working as expected.. Please go into following postgresql above connection information. Afterward to create a database named `asset_management`. 
+-- Sorry so this inconvenient, sometime /docker-entrypoint-initdb.d/init_sql.sql not working as expected.. Please go into postgresql admin and access database using above connection information. Afterward to create a database named `asset_management`. 
 - Step 4:
 -- Run `./migrate_up.sh`
 - Step 5:
