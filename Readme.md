@@ -9,5 +9,5 @@
 - Step 4:
 -- Run `./migrate_up.sh`
 - Step 5:
-- Run `docker compose up asset_management`
+-- Run `docker compose up asset_management`
 
