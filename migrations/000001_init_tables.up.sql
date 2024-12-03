@@ -67,7 +67,7 @@ ALTER TABLE public.as_organization OWNER TO asset_management;
 
 CREATE TABLE public.as_status (
     id smallint NOT NULL,
-    name character varying(8) NOT NULL
+    name character varying(16) NOT NULL
 );
 
 
@@ -170,5 +170,14 @@ ALTER TABLE ONLY public.as_asset
     ADD CONSTRAINT status_id_fkey FOREIGN KEY (status_id) REFERENCES public.as_status(id) ON UPDATE CASCADE ON DELETE SET NULL NOT VALID;
 
 
+INSERT INTO public.as_location(id, name) VALUES (
+    1, 'Da Nang'
+), (2, 'Ho Chi Minh'), (3, 'Ha Noi'), (4, 'Quang Nam'), (5, 'Dong Nai');
 
+INSERT INTO public.as_organization(id, name) VALUES (
+    1, 'PNS'
+), (2, 'PLJ');
 
+INSERT INTO public.as_status(id, name) VALUES (
+    1, 'actived'
+), (2, 'inactived');
