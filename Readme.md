@@ -8,7 +8,7 @@ Local Database Connection Information:
 - Postgres Database Name: asset_management
 # HOW TO START THIS PROJECT
 - Step 1:
--- Go to project folder and run `npm install` manually, because it has an issue of Docker, `npm install` not working in Docker Container
+-- Go to project folder and run `npm install` manually, because Docker has an issue, currently, `npm install` not working in Docker Container
 - Step 2:
 -- Run `docker compose up postgres_asset_managment_server -d`
 - Step 3: 
