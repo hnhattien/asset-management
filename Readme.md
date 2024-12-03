@@ -19,5 +19,5 @@ Local Database Connection Information:
 - Step 5:
 -- Run `docker compose up asset_management`
 - Step 6:
--- Watch code work. You can edit cron job pattern to every minute to see data synced immediately. Cron job pattern start at 0h everyday, currently,
+-- Watch code work. You can edit cron job pattern to every minute to see data synced immediately. Cron job pattern start at 0h everyday, currently
 
