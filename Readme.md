@@ -1,11 +1,18 @@
+
+Local Database Connection Information:
+- Postgres Host: localhost
+- Postgres Port: 5001
+- Postgres User: asset_management
+- Postgres Password: asset_management_abcdef
+- Postgres Database Name: asset_management
 # HOW TO START THIS PROJECT
 
 - Step 1: 
--- Run `pnpm install`
+-- Go to project folder and Run `pnpm install`
 - Step 2:
 -- Run `docker compose up postgres_asset_managment_server -d`
 - Step 3: 
--- Please go into following postgresql connection url to create a database named `asset_management`. Sorry so this inconvenient, sometime /docker-entrypoint-initdb.d/init_sql.sql not working as expected.
+-- Sorry so this inconvenient, sometime /docker-entrypoint-initdb.d/init_sql.sql not working as expected.. Please go into following postgresql above connection information. Afterward to create a database named `asset_management`. 
 - Step 4:
 -- Run `./migrate_up.sh`
 - Step 5:
