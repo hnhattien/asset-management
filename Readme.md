@@ -1,3 +1,4 @@
+##### Dear Recruiter, because the time to complete the assignment is limited, I try to complete the assignment as soon as possible and ensure that the code can work well, some parts of the assignment may not be really best and optimization. I hope you understand.
 
 Local Database Connection Information:
 - Postgres Host: localhost
