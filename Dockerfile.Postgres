@@ -1,0 +1,8 @@
+#
+# NOTE: THIS DOCKERFILE IS GENERATED VIA "make update"! PLEASE DO NOT EDIT IT DIRECTLY.
+#
+
+FROM postgres:15-bullseye
+
+RUN mkdir -p /docker-entrypoint-initdb.d
+COPY ./docker-init/init_sql.sql /docker-entrypoint-initdb.d/init_sql.sql
